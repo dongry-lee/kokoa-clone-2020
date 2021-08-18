@@ -121,3 +121,17 @@
 .open-post__heart-count span{
     margin-left: 3px;
 }
+
+.alarm{
+    position: relative;
+}
+
+.alarm__dot{
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 2.5px;
+    display: flex;
+    position: absolute;
+    right: -3px;
+    top: -3px;}
